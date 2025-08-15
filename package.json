@@ -1,0 +1,135 @@
+{
+  "name": "KEJavaScript",
+  "displayName": "KEJavaScript",
+  "publisher": "KeshavSoft",
+  "description": "KeshavSoft Extension to streamline code in modules and with harmony",
+  "version": "0.1.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "AddListeners.Empty",
+        "title": "AddListeners Empty"
+      },
+      {
+        "command": "AddListeners.HtmlId.Click",
+        "title": "AddListeners HtmlId Click"
+      },
+      {
+        "command": "WithFolder.ShowAllGet",
+        "title": "WithFolder ShowAllGet"
+      },
+      {
+        "command": "Calendar.ShowAllGet",
+        "title": "Calendar ShowAllGet"
+      },
+      {
+        "command": "WithFolder.Show",
+        "title": "WithFolder Show"
+      },
+      {
+        "command": "WithFolder.InsertFooter",
+        "title": "WithFolder InsertFooter"
+      },
+      {
+        "command": "WithFolder.Create",
+        "title": "WithFolder Create"
+      },
+      {
+        "command": "WithFolder.Update",
+        "title": "WithFolder Update"
+      },
+      {
+        "command": "WithFolder.Alter",
+        "title": "WithFolder Alter"
+      },
+      {
+        "command": "WithFolder.Delete",
+        "title": "WithFolder Delete"
+      },
+      {
+        "command": "TotalJs.EndPoint.FromInput.Show",
+        "title": "TotalJs EndPoint FromInput Show"
+      },
+      {
+        "command": "DomLoaded.Show",
+        "title": "DomLoaded Show"
+      },
+      {
+        "command": "DomLoaded.Create",
+        "title": "DomLoaded Create"
+      },
+      {
+        "command": "DomLoaded.Alter",
+        "title": "DomLoaded Alter"
+      },
+      {
+        "command": "DomLoaded.Update",
+        "title": "DomLoaded Update"
+      },
+      {
+        "command": "DomLoaded.Delete",
+        "title": "DomLoaded Delete"
+      },
+      {
+        "command": "DomLoaded.SubTableShow",
+        "title": "DomLoaded SubTableShow"
+      },
+      {
+        "command": "DomLoaded.SubTableInsert",
+        "title": "DomLoaded SubTableInsert"
+      },
+      {
+        "command": "DomContentLoad.CommonConfig.CreateNoValid",
+        "title": "DomContentLoad CommonConfig CreateNoValid"
+      },
+      {
+        "command": "DomContentLoad.CommonConfig.TableWithCrud",
+        "title": "DomContentLoad CommonConfig TableWithCrud"
+      },
+      {
+        "command": "DomContentLoad.CommonConfig.TableShow",
+        "title": "DomContentLoad CommonConfig TableShow"
+      },
+      {
+        "command": "DomContentLoad.CommonConfig.TableAlter",
+        "title": "DomContentLoad CommonConfig TableAlter"
+      },
+      {
+        "command": "TotalJs.BoilerPlate",
+        "title": "TotalJs BoilerPlate"
+      },
+      {
+        "command": "FetchFuncs.AsGet",
+        "title": "FetchFuncs AsGet"
+      }
+    ],
+    "menus": {
+      "explorer/context": []
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.96.0",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  }
+}

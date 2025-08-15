@@ -1,0 +1,90 @@
+{
+  "name": "KEFrontEnd",
+  "displayName": "KEFrontEnd",
+  "publisher": "KeshavSoft",
+  "description": "KeshavSoft Extension to enhance the development of web applications",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [],
+    "commands_23Jan": [
+      {
+        "command": "create-folder.createFolder",
+        "title": "Create Folder Automatically"
+      },
+      {
+        "command": "clientJs.FetchAsPost",
+        "title": "ClientSide Js Fetch Post"
+      },
+      {
+        "command": "clientJs.FetchAsGet",
+        "title": "ClientSide Js Fetch Get"
+      },
+      {
+        "command": "clientJs.FetchAsGetConfigEndPoint",
+        "title": "ClientSide Js Fetch Get ConfigEndPoint"
+      },
+      {
+        "command": "clientJs.FetchAsGetShowDataOnly",
+        "title": "ClientSide Js Fetch Get ShowDataOnly"
+      },
+      {
+        "command": "clientJs.ToHtml.Anchor.ByClass.RefreshBSTableClass",
+        "title": "ClientSide Js ToHtml Anchor ByClass RefreshBSTableClass"
+      },
+      {
+        "command": "clientJs.ToHtml.Anchor.ByClass.RefreshBSTableClass.WithUrl",
+        "title": "ClientSide Js ToHtml Anchor ByClass RefreshBSTableClass WithUrl"
+      },
+      {
+        "command": "dynamic.FetchAsPost",
+        "title": "Dynamic Parent Directory"
+      },
+      {
+        "command": "config.CopyConfigFile",
+        "title": "Copy Config File"
+      },
+      {
+        "command": "extension.copyToClipboard",
+        "title": "copyToClipboard"
+      },
+      {
+        "command": "extension.Path",
+        "title": "Get Extension Path"
+      }
+    ],
+    "menus": {
+      "explorer/context1": [
+        {
+          "command": "create-folder.createFolder",
+          "when": "explorerResourceIsFolder",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.96.0",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  }
+}
