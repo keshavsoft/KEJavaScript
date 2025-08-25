@@ -78,6 +78,10 @@ write end points in nodejs
 
 - FetchFuncs started...
 
+### 0.2.1
+
+- DomLoaded.Show started...
+
 ## License
 
 MIT

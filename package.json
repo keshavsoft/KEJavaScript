@@ -3,7 +3,7 @@
   "displayName": "KEJavaScript",
   "publisher": "KeshavSoft",
   "description": "KeshavSoft Extension to streamline code in modules and with harmony",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -109,6 +109,10 @@
       {
         "command": "FetchFuncs.AsGet",
         "title": "FetchFuncs AsGet"
+      },
+      {
+        "command": "DomLoaded.Show",
+        "title": "DomLoaded Show"
       }
     ],
     "menus": {
