@@ -82,6 +82,10 @@ write end points in nodejs
 
 - DomLoaded.Show started...
 
+### 0.2.2
+
+- DomLoaded divided to 2...
+
 ## License
 
 MIT
