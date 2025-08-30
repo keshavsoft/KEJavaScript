@@ -117,6 +117,10 @@
       {
         "command": "DomLoadeded.ColumnsFromHtml.Show",
         "title": "DomLoadeded ColumnsFromHtml Show"
+      },
+      {
+        "command": "DomLoadeded.Authentication.SignIn",
+        "title": "DomLoadeded Authentication SignIn"
       }
     ],
     "menus": {
