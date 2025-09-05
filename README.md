@@ -86,6 +86,10 @@ write end points in nodejs
 
 - DomLoaded divided to 2...
 
+### 0.4.1
+
+- DomLoaded.ColumnsFromHtml.ShowFromFetch perfect
+
 ## License
 
 MIT

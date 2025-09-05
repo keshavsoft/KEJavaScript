@@ -3,7 +3,7 @@
   "displayName": "KEJavaScript",
   "publisher": "KeshavSoft",
   "description": "KeshavSoft Extension to streamline code in modules and with harmony",
-  "version": "0.2.2",
+  "version": "0.4.1",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -111,16 +111,24 @@
         "title": "FetchFuncs AsGet"
       },
       {
-        "command": "DomLoadeded.ColumnsFromJson.Show",
-        "title": "DomLoadeded ColumnsFromJson Show"
+        "command": "DomLoaded.ColumnsFromJson.Show",
+        "title": "DomLoaded ColumnsFromJson Show"
       },
       {
-        "command": "DomLoadeded.ColumnsFromHtml.Show",
-        "title": "DomLoadeded ColumnsFromHtml Show"
+        "command": "DomLoaded.ColumnsFromHtml.Show",
+        "title": "DomLoaded ColumnsFromHtml Show"
       },
       {
         "command": "DomLoadeded.Authentication.SignIn",
         "title": "DomLoadeded Authentication SignIn"
+      },
+      {
+        "command": "DomLoaded.ColumnsFromHtml.Create",
+        "title": "DomLoaded ColumnsFromHtml Create"
+      },
+      {
+        "command": "DomLoaded.ColumnsFromHtml.ShowFromFetch",
+        "title": "DomLoaded ColumnsFromHtml ShowFromFetch"
       }
     ],
     "menus": {

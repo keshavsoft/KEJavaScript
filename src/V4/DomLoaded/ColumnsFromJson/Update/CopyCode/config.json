@@ -1,0 +1,4 @@
+{
+    "PostendPoint": "/V1/Farmers/Alter/WithPk",
+    "RowDataEndPoint": "/V1/Farmers/Read/RowDataWithPk"
+}
