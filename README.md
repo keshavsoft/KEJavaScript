@@ -94,6 +94,10 @@ write end points in nodejs
 
 - AddCode.AfterFetch started...
 
+### 1.5.2
+
+- AddCode FromScratch perfect
+
 ## License
 
 MIT
