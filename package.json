@@ -3,7 +3,7 @@
   "displayName": "KEJavaScript",
   "publisher": "KeshavSoft",
   "description": "KeshavSoft Extension to streamline code in modules and with harmony",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -137,6 +137,14 @@
       {
         "command": "AddCode.FromScratch",
         "title": "AddCode FromScratch"
+      },
+      {
+        "command": "AddCode.AddListeners",
+        "title": "AddCode AddListeners"
+      },
+      {
+        "command": "AddListeners.HtmlClass.Click",
+        "title": "AddListeners HtmlClass Click"
       }
     ],
     "menus": {
