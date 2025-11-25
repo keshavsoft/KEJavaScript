@@ -102,6 +102,10 @@ write end points in nodejs
 
 - still working on HtmlClass...
 
+### 1.5.4
+
+- AddCode FetchAsGet still need to be perfect from bazar
+
 ## License
 
 MIT
