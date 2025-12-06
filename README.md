@@ -106,6 +106,10 @@ write end points in nodejs
 
 - AddCode FetchAsGet still need to be perfect from bazar
 
+### 1.6.1
+
+- AddCode new added from Html
+
 ## License
 
 MIT
