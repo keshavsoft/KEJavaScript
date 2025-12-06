@@ -10,6 +10,11 @@
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keshavsoft/KEJavaScript.git"
+  },
+  "license": "license.txt",
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
