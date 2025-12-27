@@ -158,6 +158,10 @@
       {
         "command": "AddCode.ToHtml",
         "title": "AddCode ToHtml"
+      },
+      {
+        "command": "AddCode.ForDelete",
+        "title": "AddCode ForDelete"
       }
     ],
     "menus": {
