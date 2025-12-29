@@ -1,32 +1,39 @@
-# CrudExtension
-write end points in nodejs
+# KEJavaScript Extension
+write js functionality
 
 ## Features
 
-- Helps you establish BoilerPlate code for File Crud and also to write SubRoutes and insert EndPoints of your wish.
+- Helps you establish Js code for shortcuts of your wish.
 
 ## Usage
 
-1. Open an Empty Folder.
+1. Open an js File.
 2. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
-3. Search for and run (`KS BoilerPlate`).
-4. Find the available options there ( like `ArrayAndContent`).
-5. All the Folders and Files are copied to your empty Folder.
-6. .env file the place where you define ( Data Path and Port Number ).
-7. app.js is entry file.
-8. To create a subRoute from here use `KS RouteUse`
+3. Search for and run (`KS AddCode.ForDelete`).
+4. Paste all functionality of delete.
 
 ## Requirements
 
 - Visual Studio Code version 1.50.0 or higher.
 
-## Extension Settings
-
-.env
 
 ## Known Issues
 
 - No known issues.
+
+## Commends
+
+🔹 AddCode ForDelete Description
+
+A delete functionality was created using a VS Code extension command AddCode.ForDelete for Bootstrap Table (bstable).
+The implementation includes:
+
+. Row-based delete handling
+
+. Confirmation alert before deletion
+
+. Safe removal of records from the table
+
 
 ## Release Notes
 
