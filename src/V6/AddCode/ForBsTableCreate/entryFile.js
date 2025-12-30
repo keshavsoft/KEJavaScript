@@ -2,7 +2,7 @@ const vscode = require('vscode');
 const fse = require('fs-extra');
 const path = require('path');
 
-const CommonRegisterCommand = "AddCode.ForDelete";
+const CommonRegisterCommand = "AddCode.ForBsTableCreate";
 const { StartFunc: StartFuncFromOpenApp } = require("./openApp");
 
 const StartFunc = () => {
