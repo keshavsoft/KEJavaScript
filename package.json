@@ -160,8 +160,16 @@
         "title": "AddCode ToHtml"
       },
       {
-        "command": "AddCode.ForDelete",
-        "title": "AddCode ForDelete"
+        "command": "AddCode.ForBsTableDelete",
+        "title": "AddCode ForBsTableDelete"
+      },
+      {
+        "command": "AddCode.ForBsTableAlter",
+        "title": "AddCode ForBsTableAlter"
+      },
+      {
+        "command": "AddCode.ForBsTableCreate",
+        "title": "AddCode ForBsTableCreate"
       }
     ],
     "menus": {

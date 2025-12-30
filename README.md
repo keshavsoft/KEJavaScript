@@ -23,9 +23,9 @@ write js functionality
 
 ## Commends
 
-🔹 AddCode ForDelete Description
+🔹 AddCode ForBsTableDelete Description
 
-A delete functionality was created using a VS Code extension command AddCode.ForDelete for Bootstrap Table (bstable).
+The delete functionality was created using a VS Code extension command AddCode.ForBsTableDelete for Bootstrap Table (bstable).
 The implementation includes:
 
 . Row-based delete handling
@@ -34,6 +34,23 @@ The implementation includes:
 
 . Safe removal of records from the table
 
+🔹 AddCode ForBsTableAlter Description
+
+The Alter functionality was created using a VS Code extension command AddCode.ForBsTableAlter for Bootstrap Table (bstable).
+The implementation includes:
+
+. Row-based Alter handling
+
+. Confirmation alert before Alter
+
+. Safe Alter of records from the table
+
+🔹 AddCode ForBsTableAlter Description
+
+The Create functionality was created using a VS Code extension command AddCode.ForBsTableCreate for Bootstrap Table (bstable).
+The implementation includes:
+
+. Row-based insert handling
 
 ## Release Notes
 
