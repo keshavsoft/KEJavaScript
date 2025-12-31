@@ -12,6 +12,48 @@ write js functionality
 3. Search for and run (`KS AddCode.ForDelete`).
 4. Paste all functionality of delete.
 
+## Commends
+
+1. AddListeners Empty
+2. AddListeners HtmlId Click
+3. WithFolder ShowAllGet
+4. Calendar ShowAllGet
+5. WithFolder Show
+6. WithFolder InsertFooter
+7. WithFolder Create
+8. WithFolder Update
+9. WithFolder Alter
+10. WithFolder Delete
+11. TotalJs EndPoint FromInput Show
+12. DomLoaded Show
+13. DomLoaded Create
+14. DomLoaded Alter
+15. DomLoaded Update
+16. DomLoaded Delete
+17. DomLoaded SubTableShow
+18. DomLoaded SubTableInsert
+19. DomContentLoad CommonConfig CreateNoValid
+20. DomContentLoad CommonConfig TableWithCrud
+21. DomContentLoad CommonConfig TableShow
+22. DomContentLoad CommonConfig TableAlter
+23. TotalJs BoilerPlate
+24. FetchFuncs AsGet
+25. DomLoaded ColumnsFromJson Show
+26. DomLoaded ColumnsFromHtml Show
+27. DomLoadeded Authentication SignIn
+28. DomLoaded ColumnsFromHtml Create
+29. DomLoaded ColumnsFromHtml ShowFromFetch
+30. AddCode AfterFetch
+31. AddCode FromScratch
+32. AddCode AddListeners
+33. AddListeners HtmlClass Click
+34. AddCode FetchAsGet
+35. AddCode ToHtml
+36. AddCode ForBsTableDelete
+37. AddCode ForBsTableAlter
+38. AddCode ForBsTableCreate
+39. AddCode ForBsTable
+
 ## Requirements
 
 - Visual Studio Code version 1.50.0 or higher.
@@ -21,7 +63,7 @@ write js functionality
 
 - No known issues.
 
-## Commends
+## Commends Description
 
 🔹 AddCode ForBsTableDelete Description
 

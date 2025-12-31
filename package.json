@@ -170,6 +170,10 @@
       {
         "command": "AddCode.ForBsTableCreate",
         "title": "AddCode ForBsTableCreate"
+      },
+      {
+        "command": "AddCode.ForBsTable",
+        "title": "AddCode ForBsTable"
       }
     ],
     "menus": {
