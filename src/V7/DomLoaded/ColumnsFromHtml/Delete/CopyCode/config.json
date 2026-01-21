@@ -1,0 +1,4 @@
+{
+    "GetEndPoint": "/V1/Farmers/Read/AsIs",
+    "DeleteUrl": "/V1/Farmers/Delete/WithPk"
+}

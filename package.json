@@ -3,7 +3,7 @@
   "displayName": "KEJavaScript",
   "publisher": "KeshavSoft",
   "description": "KeshavSoft Extension to streamline code in modules and with harmony",
-  "version": "1.6.1",
+  "version": "1.7.1",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -178,6 +178,10 @@
       {
         "command": "AddCode.ForBsTableCreateWithDL",
         "title": "AddCode ForBsTableCreateWithDL"
+      },
+      {
+        "command": "AddPartial.FetchFormPost",
+        "title": "AddPartial FetchFormPost"
       }
     ],
     "menus": {

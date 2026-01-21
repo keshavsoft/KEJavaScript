@@ -176,6 +176,10 @@ The implementation includes:
 
 - AddCode new added from Html
 
+### 1.7.1
+
+-  AddPartial FetchFormPost
+
 ## License
 
 MIT
