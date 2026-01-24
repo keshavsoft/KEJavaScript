@@ -4,6 +4,7 @@ const { StartFunc: StartUpdate } = require("./Update/entryFile");
 const { StartFunc: StartAlter } = require("./Alter/entryFile");
 const { StartFunc: StartDelete } = require("./Delete/entryFile");
 const { StartFunc: StartFuncFromShowFromFetch } = require("./ShowFromFetch/entryFile");
+const { StartFunc: StartFuncFromMultiTable } = require("./MultiTable/entryFile");
 
 const StartFunc = () => {
     StartFromShow();
@@ -12,6 +13,7 @@ const StartFunc = () => {
     StartAlter();
     StartDelete();
     StartFuncFromShowFromFetch();
+    StartFuncFromMultiTable();
 };
 
 module.exports = { StartFunc };

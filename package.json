@@ -182,6 +182,10 @@
       {
         "command": "AddPartial.FetchFormPost",
         "title": "AddPartial FetchFormPost"
+      },
+      {
+        "command": "DomLoaded.ColumnsFromHtml.MultiTable",
+        "title": "DomLoaded ColumnsFromHtml MultiTable"
       }
     ],
     "menus": {
