@@ -8,6 +8,7 @@ const { StartFunc: StartFromForBsTableAlter } = require("./ForBsTableAlter/entry
 const { StartFunc: StartFromForBsTableCreate } = require("./ForBsTableCreate/entryFile");
 const { StartFunc: StartFromForBsTable } = require("./ForBsTable/entryFile");
 const { StartFunc: StartFromForBsTableCreateWithDL } = require("./ForBsTableCreateWithDL/entryFile");
+const { StartFunc: StartFuncFromFromScratchHtml } = require("./FromScratchHtml/entryFile");
 
 const StartFunc = () => {
     StartFromAfterFetch();
@@ -20,6 +21,7 @@ const StartFunc = () => {
     StartFromForBsTableCreate();
     StartFromForBsTable();
     StartFromForBsTableCreateWithDL();
+    StartFuncFromFromScratchHtml();
 };
 
 module.exports = { StartFunc };

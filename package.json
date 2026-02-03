@@ -3,7 +3,7 @@
   "displayName": "KEJavaScript",
   "publisher": "KeshavSoft",
   "description": "KeshavSoft Extension to streamline code in modules and with harmony",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -186,6 +186,10 @@
       {
         "command": "DomLoaded.ColumnsFromHtml.MultiTable",
         "title": "DomLoaded ColumnsFromHtml MultiTable"
+      },
+      {
+        "command": "AddCode.FromScratchHtml",
+        "title": "AddCode FromScratchHtml"
       }
     ],
     "menus": {

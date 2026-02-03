@@ -184,6 +184,10 @@ The implementation includes:
 
 -  AddPartial FetchFormPost still working on
 
+### 1.7.3
+
+-  AddCode.FromScratchHtml perfect from html also
+
 ## License
 
 MIT
