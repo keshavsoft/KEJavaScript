@@ -74,6 +74,7 @@ const LocalFuncFileAsArray = () => {
 
     if (activeEditor) {
         const activeFilePath = activeEditor.document.uri.fsPath;
+        const fileNameOnly = path.parse(activeFilePath).name;
         const LocalFileAsLlines = LocalFuncReadAsLines({ inFilePath: activeFilePath });
 
         const index = LocalFileAsLlines.findIndex(fruit => fruit === "</body>");
@@ -82,7 +83,7 @@ const LocalFuncFileAsArray = () => {
             // 2. Insert the new value at the found index + 1
             // splice(startIndex, deleteCount, item1, item2, ...)
             LocalFileAsLlines.splice(index, 0, "");
-            LocalFileAsLlines.splice(index, 0, `\t<script src="./Js/v3/entryFile.js" type="module"></script>`);
+            LocalFileAsLlines.splice(index, 0, `\t<script src="./Js/${fileNameOnly}/entryFile.js" type="module"></script>`);
             LocalFileAsLlines.splice(index, 0, "");
         };
 
